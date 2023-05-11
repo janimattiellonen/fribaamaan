@@ -43,7 +43,7 @@ div.free p {
     width: 100px;
   }
 
-  div.free {  
+  div.free {
     height: 100px;
   }
 }
@@ -68,7 +68,7 @@ div.free p {
 
 img.hero {
   width: 100%;
-  height: 400px;
+  height: 450px;
   object-fit: cover;
 }
 
@@ -77,7 +77,7 @@ img.hero {
   left: 50px;
   right: 50px;
 
-  top: 170px;
+  top: 190px;
   margin: auto;
   left: 0;
   right: 0;
@@ -102,7 +102,7 @@ img.hero {
 
 @media screen and (min-width: 900px) {
   .title-box {
-    padding: 30px;
+    padding: 15px;
     border-radius: 25px;
     font-size: 3rem;
   }
@@ -133,7 +133,7 @@ img.hero {
 
  .wave {
   top: -200px
- } 
+ }
 
  .wave-path {
   height: 200px;
@@ -159,8 +159,14 @@ section {
 
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 500px) {
+  h2 {
+    font-size: 3rem;
+  }
 }
 
 p, li {
@@ -200,7 +206,7 @@ main a:hover {
 
 main article {
   background:  	hsl(90deg 14% 30% / 0.65);
-  padding: 30px; 
+  padding: 30px;
   border-radius: 25px;
 }
 
@@ -257,7 +263,7 @@ a.btn:hover {
 .btn2 {
   background: rgb(128, 3, 3);
   background: #283024;
-  
+
   border-radius: 5px;
   border: none;
   padding: 0;
