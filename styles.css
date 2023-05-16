@@ -208,6 +208,8 @@ main article {
   background:  	hsl(90deg 14% 30% / 0.65);
   padding: 30px;
   border-radius: 25px;
+  display: grid;
+  align-content: center;
 }
 
 section.sponsors {
