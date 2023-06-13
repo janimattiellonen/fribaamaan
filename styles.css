@@ -142,7 +142,7 @@ img.hero {
 
 section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+ /* grid-template-columns: minmax(0, 1fr);*/
 
   color: white;
   gap: 4rem;
@@ -152,7 +152,7 @@ section {
 
 @media screen and (min-width: 900px) {
   section {
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr;*/
   }
 
 }
