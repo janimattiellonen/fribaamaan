@@ -84,7 +84,7 @@ img.hero {
   margin: auto;
   left: 0;
   right: 0;
-  width: 350px;
+  width: 400px;
   background:  	hsl(90deg 14% 30% / 0.65);
   padding: 35px;
   border-radius: 15px;
@@ -102,7 +102,7 @@ img.hero {
 .title-box p {
   text-align: center;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -111,6 +111,10 @@ img.hero {
   }
   .title-box h1 {
     font-size: 5rem;
+  }
+
+  .title-box p {
+    font-size: 2rem;
   }
 
 }
