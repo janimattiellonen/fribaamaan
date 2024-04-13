@@ -94,6 +94,7 @@ img.hero {
 }
 
 .title-box h1 {
+  text-align: center;
   font-weight: bold;
   text-shadow: 4px 4px 8px hsl(359deg 100% 0% / 0.9);
   font-size: 3rem;
