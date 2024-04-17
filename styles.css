@@ -242,6 +242,20 @@ main article {
   align-content: center;
 }
 
+main article .inner {
+  position: relative;
+}
+
+main article .inner .author {
+  position: absolute;
+  bottom: 0;
+
+  background: hsl(0 0 0 / 75%);
+  padding: 8px 16px;
+  text-align: center;
+  width: 100%;
+}
+
 section.sponsors {
   width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
